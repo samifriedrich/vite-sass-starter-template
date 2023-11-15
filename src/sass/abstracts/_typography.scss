@@ -1,3 +1,4 @@
+// font-families
 $ff-sans: "Open Sans", sans-serif;
 
 $font-sizes: (
@@ -8,5 +9,12 @@ $font-sizes: (
   400: 1.125rem,
 );
 
+// font-weights
 $fw-400: 400;
 $fw-700: 700;
+
+// for utility class generation
+$font-weights: (400, 700);
+
+$fw-regular: 400;
+$fw-bold: 700;

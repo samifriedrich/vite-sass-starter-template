@@ -1,0 +1,22 @@
+@use "../abstracts/" as *;
+
+// a simpler alternative to using a list or map
+// .fw-regular {
+//   font-weight: $fw-400;
+// }
+// .fw-bold {
+//   font-weight: $fw-700;
+// }
+
+@each $weight in $font-weights {
+  .fw-#{$weight} {
+    font-size: $weight;
+  }
+}
+
+.fw-regular {
+  font-weight: $fw-regular;
+}
+.fw-bold {
+  font-weight: $fw-bold;
+}
