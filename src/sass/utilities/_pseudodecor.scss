@@ -1,0 +1,18 @@
+@use "../abstracts/" as *;
+
+.underline {
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 7rem;
+    background-color: currentcolor;
+    margin: 1.5rem auto;
+  }
+
+  .clr-neutral-100 &::after {
+    background-color: clr(neutral, 100);
+  }
+}

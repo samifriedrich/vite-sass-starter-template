@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+.ff-default {
+  font-family: $ff-default;
+}
+
+.ff-accent {
+  font-family: $ff-accent;
+}

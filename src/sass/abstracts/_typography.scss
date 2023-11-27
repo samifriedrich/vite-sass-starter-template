@@ -1,20 +1,23 @@
-// font-families
-$ff-sans: "Open Sans", sans-serif;
+$ff-abril: "Abril Fatface", serif;
+$ff-lato: "Lato", sans-serif;
+
+$ff-default: $ff-lato;
+$ff-accent: $ff-abril;
 
 $font-sizes: (
-  900: 3.75rem,
-  800: 3rem,
-  600: 1.5rem,
+  900: clamp(2.5rem, 0.5rem + 10vw, 5rem),
+  800: clamp(2.5rem, 0.5rem + 7vw, 3.75rem),
+  700: 2.5rem,
+  600: clamp(1.4rem, 0.5rem + 3vw, 1.6875rem),
   500: 1.3125rem,
   400: 1.125rem,
+  300: 1rem,
 );
 
-// font-weights
 $fw-400: 400;
 $fw-700: 700;
 
-// for utility class generation
 $font-weights: (400, 700);
 
-$fw-regular: 400;
-$fw-bold: 700;
+$fw-bold: $fw-700;
+$fw-regular: $fw-400;
